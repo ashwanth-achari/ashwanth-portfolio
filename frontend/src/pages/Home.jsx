@@ -49,7 +49,7 @@ const Home = () => {
                   <Button>View Projects</Button>
                 </Link>
                 <Button 
-                  href="/resume.pdf" 
+                  href="https://drive.google.com/file/d/1edWkwbf0x4HCpl-RYUKYx-a9gVvELCCW/view?usp=drive_link" 
                   variant="outline"
                   className="ml-2"
                 >

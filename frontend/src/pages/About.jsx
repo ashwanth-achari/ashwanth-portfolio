@@ -16,20 +16,16 @@ const About = () => {
             evolved into a passion for creating full-stack applications. I specialize in the MERN stack 
             (MongoDB, Express, React, Node.js) and am constantly learning new technologies to enhance my skills.
           </p>
-          <p>
-            When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, 
-            or enjoying a good book on software development.
-          </p>
         </div>
         
         <div className="about-details">
           <div className="about-info">
             <h3>Personal Information</h3>
             <ul>
-              <li><strong>Name:</strong> Ashwanth A</li>
-              <li><strong>Location:</strong> Bangalore, India</li>
-              <li><strong>Experience:</strong> 2+ Years</li>
-              <li><strong>Status:</strong> Available for freelance</li>
+              <li><strong>Name:</strong> Ashwanth Achari</li>
+              <li><strong>Location:</strong> Bhatkal, (Banglore) India</li>
+              <li><strong>Experience:</strong> Fresher</li>
+              <li><strong>Status:</strong> Available for Interships/Jobs</li>
             </ul>
           </div>
           
@@ -41,10 +37,10 @@ const About = () => {
               <div className="skill-tags">
                 <span className="skill-tag">HTML5</span>
                 <span className="skill-tag">CSS3</span>
+                <span className="skill-tag">Tailwind</span>
                 <span className="skill-tag">JavaScript (ES6+)</span>
                 <span className="skill-tag">React</span>
                 <span className="skill-tag">Redux</span>
-                <span className="skill-tag">Responsive Design</span>
               </div>
             </div>
             
@@ -64,19 +60,21 @@ const About = () => {
               <div className="skill-tags">
                 <span className="skill-tag">MongoDB</span>
                 <span className="skill-tag">Mongoose</span>
-                <span className="skill-tag">SQL Basics</span>
+                <span className="skill-tag">SQLite</span>
+                <span className="skill-tag">SQL</span>
               </div>
             </div>
             
             <div className="skill-category">
               <h4>Tools</h4>
               <div className="skill-tags">
-                <span className="skill-tag">Git</span>
-                <span className="skill-tag">GitHub</span>
+                <span className="skill-tag">Git / GitHub</span>
+                <span className="skill-tag">AI Workflows(n8n)</span>
+                <span className="skill-tag">Generative AI</span>
                 <span className="skill-tag">VS Code</span>
                 <span className="skill-tag">Postman</span>
-                <span className="skill-tag">Netlify</span>
-                <span className="skill-tag">Heroku</span>
+                <span className="skill-tag">Vercel</span>
+                <span className="skill-tag">Render</span>
               </div>
             </div>
           </div>

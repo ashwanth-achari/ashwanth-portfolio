@@ -61,12 +61,12 @@ const projects = [
     description:
       "Just let Z.ai vibe code my entire portfolio website. The result...uh are seeing right now.A personal portfolio website built with React and Node.js to showcase projects, skills, and experience with a clean, modern design.But without experienced touch, it falls apart",
     techStack: ["Z.ai","React", "Node.js", "Express", "MongoDB"],
-    githubUrl: "https://github.com/ashwanth/portfolio",
+    githubUrl: "https://github.com/ashwanth-achari/ashwanth-portfolio",
     liveUrl: "#",
     category: "Full Stack",
     role: "Solo Developer",
     duration: "Nov 2025",
-    isFeatured: false,
+    isFeatured: true,
   },
   {
     title: "To-Do Task Manager",

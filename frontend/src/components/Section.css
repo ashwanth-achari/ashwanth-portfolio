@@ -1,0 +1,68 @@
+/* src/components/Section.css */
+.section {
+  padding: 80px 0;
+}
+
+.section-dark {
+  background-color: var(--dark-text);
+  color: var(--white);
+}
+
+.section-dark .section-title {
+  color: var(--white);
+}
+
+.section-dark .section-subtitle {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: var(--dark-text);
+  position: relative;
+  display: inline-block;
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 50px;
+  height: 3px;
+  background-color: var(--primary-color);
+}
+
+.section-subtitle {
+  font-size: 1.2rem;
+  color: var(--light-text);
+  margin-bottom: 2rem;
+  max-width: 700px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 60px 0;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .section {
+    padding: 40px 0;
+  }
+  
+  .section-title {
+    font-size: 1.8rem;
+  }
+}

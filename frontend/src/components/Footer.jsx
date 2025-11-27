@@ -27,10 +27,10 @@ const Footer = () => {
           <div className="footer-social">
             <h4>Connect</h4>
             <div className="social-icons">
-              <a href="https://github.com/ashwanth-achari" target="https://github.com/ashwanth-achari" rel="noopener noreferrer">
+              <a href="https://github.com/ashwanth-achari" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-github"></i> GitHub
               </a>
-              <a href="https://www.linkedin.com/in/ashwanth-achari/" target="https://www.linkedin.com/in/ashwanth-achari/" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/ashwanth-achari/" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-linkedin"></i> LinkedIn
               </a>
               <a href="mailto:ashwanthna07@gmail.com">

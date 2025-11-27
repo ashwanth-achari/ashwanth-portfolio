@@ -7,30 +7,51 @@ const About = () => {
     <Section id="about" title="About Me">
       <div className="about-content">
         <div className="about-text">
+          <span className="about-eyebrow">👋 Hey, I'm Ashwanth</span>
+          <h2 className="about-heading">
+            MERN Stack Developer focused on clean, real-world web apps.
+          </h2>
           <p>
-            I'm a passionate MERN Stack Developer with a strong foundation in building modern web applications. 
-            I enjoy turning complex problems into simple, beautiful, and intuitive solutions.
+            I love building end-to-end web applications that feel fast, intuitive, and reliable. 
+            From crafting responsive UIs in React to wiring secure APIs in Node.js, I enjoy turning ideas 
+            into full-stack solutions that actually solve problems.
           </p>
           <p>
-            My journey in web development started with a curiosity about how websites work, which quickly 
-            evolved into a passion for creating full-stack applications. I specialize in the MERN stack 
-            (MongoDB, Express, React, Node.js) and am constantly learning new technologies to enhance my skills.
+            My journey started with curiosity about how websites work and quickly grew into a passion for 
+            full-stack development. I work mainly with the MERN stack (MongoDB, Express, React, Node.js), 
+            and I’m actively exploring DevOps, cloud deployment, and AI automation tools like n8n to level up 
+            my development workflow.
           </p>
+
+          <div className="about-highlights">
+            <div className="highlight-card">
+              <span className="highlight-label">Role</span>
+              <span className="highlight-value">MERN Stack Developer</span>
+            </div>
+            <div className="highlight-card">
+              <span className="highlight-label">Experience</span>
+              <span className="highlight-value">Project-ready Fresher</span>
+            </div>
+            <div className="highlight-card">
+              <span className="highlight-label">Open To</span>
+              <span className="highlight-value">Internships & Full-time</span>
+            </div>
+          </div>
         </div>
         
         <div className="about-details">
-          <div className="about-info">
-            <h3>Personal Information</h3>
+          <div className="about-info card">
+            <h3>Personal Info</h3>
             <ul>
               <li><strong>Name:</strong> Ashwanth Achari</li>
-              <li><strong>Location:</strong> Bhatkal, (Banglore) India</li>
-              <li><strong>Experience:</strong> Fresher</li>
-              <li><strong>Status:</strong> Available for Interships/Jobs</li>
+              <li><strong>Location:</strong> Bhatkal, (Bangalore) India</li>
+              <li><strong>Experience:</strong> Fresher (Hands-on Projects)</li>
+              <li><strong>Status:</strong> Available for Internships / Jobs</li>
             </ul>
           </div>
           
-          <div className="skills-section">
-            <h3>Skills</h3>
+          <div className="skills-section card">
+            <h3>Skills & Stack</h3>
             
             <div className="skill-category">
               <h4>Frontend</h4>
@@ -66,10 +87,10 @@ const About = () => {
             </div>
             
             <div className="skill-category">
-              <h4>Tools</h4>
+              <h4>Tools & Others</h4>
               <div className="skill-tags">
                 <span className="skill-tag">Git / GitHub</span>
-                <span className="skill-tag">AI Workflows(n8n)</span>
+                <span className="skill-tag">AI Workflows (n8n)</span>
                 <span className="skill-tag">Generative AI</span>
                 <span className="skill-tag">VS Code</span>
                 <span className="skill-tag">Postman</span>

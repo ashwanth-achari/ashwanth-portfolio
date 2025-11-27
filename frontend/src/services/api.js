@@ -13,16 +13,3 @@ export const getProjectBySlug = async (slug) => {
   const data = await response.json();
   return data;
 };
-
-// Submit contact form
-export const submitContact = async (contactData) => {
-  const response = await fetch(`${API_URL}/contact`, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify(contactData),
-  });
-  const data = await response.json();
-  return data;
-};

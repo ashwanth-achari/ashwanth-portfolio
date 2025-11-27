@@ -19,7 +19,7 @@ const projects = [
     thumbnailUrl:
       "https://res.cloudinary.com/dw9pihx6q/image/upload/v1764146993/devAsh%20project/devAsh-login-success_jymw15.png",
     description:
-      "A modern MERN-based service management platform featuring secure user authentication, role-based access, protected routes, admin dashboards, real-time validations, and complete CRUD operations for services and users.",
+      "A modern MERN-based service management platform featuring secure user authentication, role-based access, protected routes, admin dashboards, real-time validations, and complete CRUD operations for admin.",
     techStack: [
       "React",
       "Node.js",
@@ -59,7 +59,7 @@ const projects = [
     thumbnailUrl:
       "https://res.cloudinary.com/dw9pihx6q/image/upload/v1764149488/portfolio-home_sarxsj.png",
     description:
-      "Just let Z.ai vibe code my entire portfolio website. The result...uh are seeing right now.A personal portfolio website built with React and Node.js to showcase projects, skills, and experience with a clean, modern design.But without experienced touch, it falls apart",
+      "I told Z.ai to vibe-code my whole portfolio, and boom — this is what you're looking at.A full MERN portfolio powered by React, Node.js, and MongoDB Atlas, created from a single prompt and refined with ChatGPT.(But without real developer experience and understanding, even the best AI-generated code can fall apart.)",
     techStack: ["Z.ai","React", "Node.js", "Express", "MongoDB"],
     githubUrl: "https://github.com/ashwanth-achari/ashwanth-portfolio",
     liveUrl: "#",

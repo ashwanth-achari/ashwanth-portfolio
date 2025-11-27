@@ -220,7 +220,7 @@
 /* chat Gpt code  */
 .gradient-text {
   background: linear-gradient(135deg, var(--primary-color), #00b4d8, #38d9a9);
-  -webkit-background-clip: text;
+  /* -webkit-background-clip: text; */
   -webkit-text-fill-color: transparent;
 }
 .hero-bg-blur {

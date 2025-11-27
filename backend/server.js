@@ -1,9 +1,9 @@
-const express = require('express');
-const dotenv = require('dotenv');
-const cors = require('cors');
-const connectDB = require('./config/db');
-const notFound = require('./middleware/notFound');
-const errorHandler = require('./middleware/errorHandler');
+const express = require("express");
+const dotenv = require("dotenv");
+const cors = require("cors");
+const connectDB = require("./config/db");
+const notFound = require("./middleware/notFound");
+const errorHandler = require("./middleware/errorHandler");
 
 // Load env vars
 dotenv.config();
@@ -12,8 +12,8 @@ dotenv.config();
 connectDB();
 
 // Route files
-const projectRoutes = require('./routes/projectRoutes');
-const contactRoutes = require('./routes/contactRoutes');
+const projectRoutes = require("./routes/projectRoutes");
+const contactRoutes = require("./routes/contactRoutes");
 
 const app = express();
 
@@ -22,14 +22,18 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 // Enable CORS
-app.use(cors());
+app.use(
+  cors({
+    origin: ["http://localhost:5173", "https://your-netlify-site.netlify.app"],
+  })
+);
 
 // Mount routers
-app.use('/api/projects', projectRoutes);
-app.use('/api/contact', contactRoutes);
+app.use("/api/projects", projectRoutes);
+app.use("/api/contact", contactRoutes);
 
-app.get('/', (req, res) => {
-  res.send('Portfolio API is running...');
+app.get("/", (req, res) => {
+  res.send("Portfolio API is running...");
 });
 
 // Middleware

@@ -13,3 +13,4 @@ export const getProjectBySlug = async (slug) => {
   const data = await response.json();
   return data;
 };
+
